@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3771793747",
+    "project_id": "todoapp-121ab",
+    "storage_bucket": "todoapp-121ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3771793747:android:68f65c1dac605c4adfa1a6",
+        "android_client_info": {
+          "package_name": "co.mandeep_singh.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3771793747-4ral25j2a7123pgimd85mfsp9c4mc980.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA27rKoNjntnsv9uDRD1d54Fe610qiyY-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3771793747-4ral25j2a7123pgimd85mfsp9c4mc980.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

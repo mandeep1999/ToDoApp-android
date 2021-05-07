@@ -49,11 +49,7 @@ public class TouchHelper extends ItemTouchHelper.SimpleCallback {
 
             }
             else{
-//                adapter.editTask(position);
-                //
-                Toast.makeText(adapter.getContext(),"Archived", Toast.LENGTH_LONG).show();
-                adapter.deleteTask(position);
-                //
+                adapter.editTask(position);
             }
     }
 
@@ -62,7 +58,7 @@ public class TouchHelper extends ItemTouchHelper.SimpleCallback {
         new RecyclerViewSwipeDecorator.Builder(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive)
                 .addSwipeRightActionIcon(R.drawable.ic_baseline_delete_24)
                 .addSwipeRightBackgroundColor(Color.RED)
-                .addSwipeLeftActionIcon(R.drawable.ic_baseline_archive_24)
+                .addSwipeLeftActionIcon(R.drawable.ic_baseline_edit_24)
                 .addSwipeLeftBackgroundColor(ContextCompat.getColor(adapter.getContext(),R.color.green_blue))
                 .create()
                 .decorate();
